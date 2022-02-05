@@ -1,1 +1,1 @@
-hello js
+var a = 2;
