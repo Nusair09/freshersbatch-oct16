@@ -26,8 +26,8 @@ class ArmstrongNumBetweenRange{
             int arm =0;
             while(original!=0){
                 int remainder = original%10;
-                arm =arm+ (int)Math.pow(remainder,3); // adds the cube of remainder into arm
-                original = original/10; // remove the last digit
+                arm =arm+ (int)Math.pow(remainder,3); 
+                original = original/10; 
             }
 
             if(num==arm)
