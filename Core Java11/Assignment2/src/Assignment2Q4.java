@@ -4,8 +4,7 @@ abstract class name {
         this.name =name;
     }
     public  abstract String getname();
-   //Point 1 : here the method declared is abstract so the class should be abstract ;
-}
+  
 class person extends name{
     person(String name) {
         super(name);
@@ -51,7 +50,7 @@ class AbstClassP6ex extends MyClass3{
 
 public class Assingment2Q4 {
     public static void main(String[] args) {
-        person user1 = new person("Prajwal");
+        person user1 = new person("Nusair");
         System.out.println(user1.getname());
         name point2 = new name("this is abstract");
         new AbstClassP3ex().display();
