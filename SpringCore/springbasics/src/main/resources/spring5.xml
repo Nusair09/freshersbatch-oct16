@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context = "http://www.springframework.org/schema/context"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+
+    <bean id="studentRequired" class="io.springbasics.Student">
+        <property name="name" value="Sindhura"/>
+        <property name="age" value="15"/>
+    </bean>
+
+    <bean id="studentResource" class="io.springbasics.Student">
+        <property name="name" value="Madhu"/>
+        <property name="age" value="15"/>
+    </bean>
+    <bean id="school" class = "io.springbasics.School">
+        <property name="name" value="Nirmal Bhartia School"/>
+        <property name="TotalStudent" value="200"/>
+
+    </bean>
+
+    <bean id="school1" class = "io.springbasics.School">
+        <property name="name" value="Vekenteshwar School"/>
+        <property name="TotalStudent" value="200"/>
+
+    </bean>
+    <bean id="school2" class = "io.springbasics.School">
+        <property name="name" value="DPS"/>
+        <property name="TotalStudent" value="500"/>
+
+    </bean>
+
+    <bean id="school3" class = "io.springbasics.School">
+        <property name="name" value="Doon BLossoms"/>
+        <property name="TotalStudent" value="250"/>
+
+    </bean>
+
+    <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>
+    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
+
+
+</beans>
