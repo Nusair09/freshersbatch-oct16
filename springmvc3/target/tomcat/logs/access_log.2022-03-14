@@ -1,7 +1,0 @@
-0:0:0:0:0:0:0:1 - - [14/Mar/2022:12:14:25 +0530] "GET /springmvc3 HTTP/1.1" 302 - http-bio-8080-exec-1 0
-0:0:0:0:0:0:0:1 - - [14/Mar/2022:12:14:29 +0530] "GET /springmvc3/ HTTP/1.1" 200 52 http-bio-8080-exec-3 3756
-0:0:0:0:0:0:0:1 - - [14/Mar/2022:12:15:27 +0530] "GET /springmvc3/login.html HTTP/1.1" 200 446 http-bio-8080-exec-5 3344
-0:0:0:0:0:0:0:1 - - [14/Mar/2022:12:17:48 +0530] "GET /springmvc3 HTTP/1.1" 302 - http-bio-8080-exec-2 0
-0:0:0:0:0:0:0:1 - - [14/Mar/2022:12:17:49 +0530] "GET /springmvc3/ HTTP/1.1" 200 52 http-bio-8080-exec-3 174
-0:0:0:0:0:0:0:1 - - [14/Mar/2022:12:18:04 +0530] "GET /springmvc3/login.html HTTP/1.1" 200 446 http-bio-8080-exec-6 2058
-0:0:0:0:0:0:0:1 - - [14/Mar/2022:12:18:18 +0530] "POST /springmvc3/validation.html HTTP/1.1" 200 75 http-bio-8080-exec-8 1703
